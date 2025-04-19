@@ -9,6 +9,8 @@ jobs:
   hello_world:
     runs-on: ubuntu-22.04
     steps:
+      - name: Named step
+        run: "Step"
       - run: echo 'Hello, world!'
       - run: echo 'Hello, world!'
       - run: echo 'Hello, world!'
